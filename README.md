@@ -27,13 +27,13 @@
 ### 屏幕截图
 
 - Browser
-![Browser](.\screenshots\Browser.png)
+![Browser](screenshots\Browser.png)
 
 - VS Code
-![VS Code](.\screenshots\VS Code.png)
+![VS Code](screenshots\VS Code.png)
 
 - Test
-![Test](.\screenshots\Test.png)
+![Test](screenshots\Test.png)
 
 - Submit
-![Submit](.\screenshots\Submit.png)
+![Submit](screenshots\Submit.png)
