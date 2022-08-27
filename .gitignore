@@ -1,3 +1,5 @@
 /leet-code-ultimate/out/
 */.idea
 */node_modules
+*/*.vsix
+*/*.zip
