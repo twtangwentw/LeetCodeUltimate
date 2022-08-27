@@ -28,16 +28,16 @@
 
 - Browser
 
-![Browser](screenshots\Browser.png)
+![Browser](https://gitee.com/wen131/leet-code-ultimate/raw/master/screenshots/Browser.png)
 
 - VS Code
 
-![VS Code](screenshots\VSCode.png)
+![VS Code](https://gitee.com/wen131/leet-code-ultimate/raw/master/screenshots/VSCode.png)
 
 - Test
 
-![Test](screenshots\Test.png)
+![Test](https://gitee.com/wen131/leet-code-ultimate/raw/master/screenshots/Test.png)
 
 - Submit
 
-![Submit](screenshots\Submit.png)
+![Submit](https://gitee.com/wen131/leet-code-ultimate/raw/master/screenshots/Submit.png)
