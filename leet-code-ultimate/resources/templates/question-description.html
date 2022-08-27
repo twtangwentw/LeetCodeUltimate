@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>LeetCode</title>
+    <style>
+        .header {
+            margin-bottom: 32px;
+            border-bottom: rgba(20, 20, 20, 0.3) 1px solid;
+            padding-bottom: 32px;
+        }
+        .header h1 a {
+            text-decoration: none;
+        }
+        .header div span {
+            color: white;
+        }
+        .content pre {
+            background: rgba(20, 20, 20, 0.3);
+            border-radius: 8px;
+            padding: 12px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1><!--suppress HtmlUnknownTarget --><a href="https://leetcode.cn/problems/${titleSlug}/">${titleCn}</a></h1>
+    <div>通过次数 <span>${totalAccepted}</span> | 提交次数 <span>${totalSubmission}</span></div>
+</div>
+<div class="content">
+    ${contentCn}
+</div>
+</body>
+</html>

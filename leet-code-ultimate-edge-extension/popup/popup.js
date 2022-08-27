@@ -1,0 +1,1 @@
+window.open("https://leetcode.cn/404/?leet-code-ultimate=true")

@@ -1,0 +1,78 @@
+#vscode-status-box {
+    --w: 200px;
+    --color: 80, 80, 80;
+    background: rgb(40, 40, 40);
+    position: fixed;
+    width: var(--w);
+    min-height: 38px;
+    left: calc(50% - var(--w) / 2);
+    top: 0;
+    border-radius: 0 0 16px 16px;
+    box-shadow: rgb(var(--color)) 0 0 8px;
+    transition: all .5s;
+    display: grid;
+    grid-template-columns: 38px 1fr 38px;
+    grid-template-rows: 1fr;
+}
+
+#vscode-status-box.info {
+    --color: 8, 153, 220;
+}
+
+#vscode-status-box.error {
+    --color: 215, 56, 56;
+}
+
+#vscode-status-box.success {
+    --color: 32, 220, 105;
+}
+
+#vscode-status-box > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vscode-status-box > #vscode-status {
+
+}
+
+#vscode-status-box > #vscode-status:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: rgb(var(--color));
+    box-shadow: rgb(var(--color), 0.5) 0 0 8px;
+    transition: background-color .5s;
+    border-radius: 8px;
+}
+
+#vscode-status-box > #vscode-message {
+    text-align: center;
+    font-size: 13px;
+}
+
+#vscode-status-box > #vscode-loading {
+
+}
+
+#vscode-status-box > #vscode-loading.hide > * {
+    opacity: 0;
+}
+
+#vscode-status-box > #vscode-loading > svg {
+    opacity: 1;
+    transition: opacity .5s;
+    fill: rgb(var(--color));
+    animation: spin infinite 1s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

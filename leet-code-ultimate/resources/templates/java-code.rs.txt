@@ -1,0 +1,8 @@
+${codeSnippet}
+// ${SYNC_END_FLAG} //
+// QuestionId: ${questionId}
+// ${INFO_END_FLAG} //
+/*
+${testCase}
+*/
+// ${CASE_END_FLAG} //

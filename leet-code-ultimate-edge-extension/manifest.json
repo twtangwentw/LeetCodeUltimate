@@ -1,0 +1,28 @@
+{
+  "name": "LeetCodeUltimate",
+  "manifest_version": 3,
+  "description": "LeetCode Ultimate 刷题扩展工具的浏览器连接支持",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icons/leet-code.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.cn/404/?leet-code-ultimate=true"
+      ],
+      "js": [
+        "content-scripts/jquery-3.6.0.min.js",
+        "content-scripts/vscode/apis.js",
+        "content-scripts/vscode/message-handler.js",
+        "content-scripts/vscode/connection.js"
+      ],
+      "css": [
+        "content-scripts/vscode/styles/base.css"
+      ]
+    }
+  ]
+}
