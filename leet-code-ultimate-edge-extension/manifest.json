@@ -2,7 +2,7 @@
   "name": "LeetCodeUltimate",
   "manifest_version": 3,
   "description": "LeetCode Ultimate 刷题扩展工具的浏览器连接支持",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icons": {
     "128": "icons/leet-code.png"
   },

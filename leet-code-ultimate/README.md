@@ -20,5 +20,8 @@
 - Rust
   - 需要使用 rust-analyzer 扩展
   - 需要 cargo 环境
+  - VS Code 的打开目录需要是插件的 Rust 工作目录，或者不打开任何目录
 - Java
   - 需要使用 Language Support for Java(TM) by Red Hat 扩展
+
+> 更多请查看源代码仓库的 README

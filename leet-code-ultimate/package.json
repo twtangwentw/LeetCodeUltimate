@@ -2,7 +2,7 @@
   "name": "leet-code-ultimate",
   "displayName": "LeetCode Ultimate",
   "description": "愉快的刷 LeetCode 题",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "twtool",
   "icon": "images/leet-code.png",
   "engines": {
